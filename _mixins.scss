@@ -4,4 +4,18 @@
   align-items: center;
   flex-wrap: wrap;
   flex-direction: $direction;
-} 
+}
+@mixin jcsb(){
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+
+}
+@mixin jcsa(){
+  display:flex;
+  justify-content: space-around;
+  flex-direction: row;
+  
+  align-items: center;
+}

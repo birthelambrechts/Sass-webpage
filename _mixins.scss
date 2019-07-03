@@ -23,3 +23,31 @@
   padding-top: 10px;
   padding-left: 5px;
 }
+
+
+@mixin aic {
+  display: flex;
+  align-items: center;
+}
+
+@mixin brdr {
+  border: 3px solid black;
+  border-radius: 5px;
+}
+
+@mixin bodybgclr () {
+  background-color: #F8F8FC;
+}
+@mixin headerscolor {
+  color: #5C7BE1;
+}
+@mixin emptybar{
+  background-color: #EAEAF4;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  height: 15px;
+}
+@mixin border-lr {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}

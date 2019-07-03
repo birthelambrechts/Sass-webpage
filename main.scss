@@ -4,6 +4,7 @@
 @import "colors";
 @import "component";
 @import "component-B";
+@import "componentA";
 
 .wrapper{
   display: flex;
@@ -46,3 +47,5 @@
 .article-box{
   margin:5px;
 }
+
+

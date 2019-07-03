@@ -1,0 +1,308 @@
+
+/*Angel*/
+.maincontent {
+    width: 1150px;
+  }
+  .content-left {
+    width: 550px;
+  }
+  .content-right {
+    width: 550px;
+  }
+  .article-a { 
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px -6px rgba(0,0,0,0.75);
+    margin-bottom: 20px;
+    .bar{
+      height: 40px;
+      background-color: #F8F9FC;
+      border-radius: 5px 5px 0 0 ;
+      border: 1px solid rgba(128, 128, 128, 0.301);
+      @include aic;
+      h3{
+        margin-left: 15px;
+        @include headerscolor;
+      }
+    }
+    .contentt {
+      background-color: #fff;
+      border-radius:0 0 5px 5px;
+  
+      .values-one{
+        @include jcsb;
+        margin:0 15px 0 15px;
+      
+      p {
+        margin: 10px 0 10px 0;
+      }
+    }
+      .bars-one{
+        width: auto;
+        @include jcsa;
+        margin:0 15px 0 15px;
+        
+        .bar-one{
+          height: 15px;
+          width: 20%;
+          background-color: $danger;
+          @include border-lr;
+        }
+        .bar-two {
+          width: 80%;
+        @include emptybar;
+      }
+    }
+      .values-two{
+        @include jcsb;
+        margin:0 15px 0 15px;
+      
+      p {
+        margin: 10px 0 10px 0;
+      }
+    }
+    .bars-two{
+      width: auto;
+      @include jcsa;
+      margin:0 15px 0 15px;
+      
+      .bar-three{
+        height: 15px;
+        width: 40%;
+        background-color: $warning;
+        @include border-lr;
+      }
+      .bar-four {
+        width: 60%;
+      @include emptybar;
+    }
+  }
+  .values-three{
+    @include jcsb;
+    margin:0 15px 0 15px;
+  
+  p {
+    margin: 10px 0 10px 0;
+  }
+  }
+  .bars-three{
+    width: auto;
+    @include jcsa;
+    margin:0 15px 0 15px;
+    
+    .bar-five{
+      height: 15px;
+      width: 60%;
+      background-color: $primary;
+      @include border-lr;
+    }
+    .bar-six {
+      width: 40%;
+    @include emptybar;
+  }
+  }
+  .values-four{
+    @include jcsb;
+    margin:0 15px 0 15px;
+  
+  p {
+    margin: 10px 0 10px 0;
+  }
+  }
+  .bars-four{
+    width: auto;
+    @include jcsa;
+    margin:0 15px 0 15px;
+    
+    .bar-seven{
+      height: 15px;
+      width: 80%;
+      background-color: $info;
+      @include border-lr;
+    }
+    .bar-eight {
+      width: 20%;
+    @include emptybar;
+  }
+  }
+  .values-five{
+    @include jcsb;
+    margin:0 15px 0 15px;
+  
+  p {
+    margin: 10px 0 10px 0;
+  }
+  }
+  .bars-five{
+    width: auto;
+    @include jcsa;
+    margin:0 15px 0 15px;
+    
+    .bar-nine{
+      height: 15px;
+      width: 100%;
+      background-color: $succes;
+      @include border-lr;
+      border-top-right-radius: 5px;
+      border-bottom-right-radius: 5px;
+      margin-bottom: 15px;
+      }
+    }
+  }
+  }
+  .article-box{
+    @include aic;
+    width: 300px;
+    height: 90px;
+    box-shadow: 0px 0px 20px -6px rgba(0,0,0,0.75);
+    margin: 10px;
+    color: white;
+    p span {
+      color: hsla(0, 0%, 100%, 0.548)
+    }
+  
+  }
+  .article-six-box{
+    
+    justify-content: space-between;
+    .box-top{
+      display: flex;
+    }
+    .box-middle{
+      display: flex;
+    }
+    .box-bottom{
+      display: flex;
+    }
+  
+  .box-top > div {
+    border-radius: 5px;
+  }
+  .box-middle > div {
+    border-radius: 5px;
+  }
+  .box-bottom > div {
+    border-radius: 5px;
+  }
+  
+  .article-box.primary {
+      background-color: $primary;
+      @include aic;
+      margin: 0 7px 15px 0;
+      p {
+        margin: 15px;
+      }
+    }
+  
+    .article-box.succes {
+      background-color: $succes;
+      @include aic;
+      margin: 0 0 7px 7px;
+      p {
+        margin: 15px;
+      }
+    }
+  
+  
+    .article-box.info {
+      background-color: $info;
+      @include aic;
+      margin: 7px 7px 7px 0;
+      p{
+        margin: 10px;
+      }
+    }
+    .article-box.warning {
+      background-color: $warning;
+      @include aic;
+      margin: 7px 0 7px 7px;
+      p{
+        margin: 10px;
+      }
+    }
+  
+    .article-box.danger {
+      background-color: $danger;
+      @include aic;
+      margin: 7px 7px 0 0;
+      p{
+        margin: 10px;
+      }
+    }
+    .article-box.secondary {
+      background-color: $secondary;
+      @include aic;
+      margin: 7px 0 0 7px;
+      p{
+        margin: 10px;
+      }
+    }
+  }
+  .article-right-one {
+      border-radius:5px 5px 5px 5px;
+      background-color: #fff;
+      box-shadow: 0px 0px 20px -6px rgba(0,0,0,0.75);
+      margin: 25px 0 10px 0;
+      height: 370px;
+  
+      .bar{
+      height: 40px;
+      background-color: #F8F9FC;
+      border-radius: 5px 5px 0 0 ;
+      border: 1px solid rgba(128, 128, 128, 0.301);
+      @include aic;
+      h3{
+        margin-left: 15px;
+        @include headerscolor;
+      }
+    }
+    .cntnt {
+      
+      img {
+        width: 350px;
+      }
+      p {
+        margin: 15px;
+        @extend %bar;
+      }
+      a {
+        margin: 15px;
+      }
+    }
+  }
+  
+  .article-right-two {
+    border-radius:5px 5px 5px 5px;
+      background-color: #fff;
+      box-shadow: 0px 0px 20px -6px rgba(0,0,0,0.75);
+      margin: 20px 0 20px 0;
+      height: 250px;
+    .bar{
+      height: 40px;
+      background-color: #F8F9FC;
+      border-radius: 5px 5px 0 0 ;
+      border: 1px solid rgba(128, 128, 128, 0.301);
+      @include aic;
+      h3{
+        margin-left: 15px;
+        @include headerscolor;
+      }
+    }
+    p {
+      margin: 15px;
+      @extend %bar;
+    }
+  }
+  %bar {
+    color: #858796;
+  }
+  .footer {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    .footerr {
+      margin: 30px;
+      color: #A7A8B3;
+    }
+  }

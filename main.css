@@ -54,9 +54,9 @@ table {
       -ms-flex-direction: row;
           flex-direction: row;
   height: 50px;
-  margin-left: 20px;
   margin-top: 20px;
   color: #595b68;
+  width: 1020px;
 }
 
 .dashboard h1 {
@@ -93,6 +93,7 @@ table {
           align-items: center;
   height: 100px;
   margin: 20px 0 40px 0;
+  width: 1020px;
 }
 
 .boxes .header-box-one {
@@ -286,19 +287,25 @@ table {
   margin: 0 35px 0 0;
 }
 
+.margin-content {
+  margin-left: 20px;
+}
+
 .content-top {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  width: 1020px;
 }
 
 .article-one {
@@ -385,7 +392,6 @@ table {
 /*Angel*/
 .maincontent {
   width: 1020px;
-  margin-left: 18px;
 }
 
 .content-right {

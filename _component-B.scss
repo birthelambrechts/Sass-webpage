@@ -2,9 +2,10 @@
 .dashboard {
   @include jcsb;
   height: 50px;
-  margin-left: 20px;
+
   margin-top:20px;
   color: #595b68;
+  width: 1020px;
 
 
 
@@ -33,7 +34,7 @@
   @include jcsa;
   height: 100px;
   margin: 20px 0 40px 0 ;
-
+width: 1020px;
   .header-box-one {
     border-left: solid 4px;
     border-color: $primary;
@@ -135,8 +136,14 @@
  
 }
 
+.margin-content {
+  margin-left :20px;
+}
 .content-top{
-  @include jcsa;
+  @include jcsb;
+  width: 1020px;
+
+ 
 }
 .article-one{
   display:flex;
@@ -145,6 +152,7 @@
 }
 .article-two{
   box-shadow: 0px 0px 20px -6px rgba(0,0,0,0.75);
+  
 }
 .article-title{
 background-color: #f8f9fc;

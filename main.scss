@@ -1,9 +1,9 @@
 @import "reset";
 @import "variables";
 @import "mixins";
-@import "component";
 @import "colors";
-@import "basis";
+@import "component";
+@import "component-B";
 
 .wrapper{
   display: flex;
@@ -22,47 +22,13 @@
 .wrapper> div {
   border:1px solid black;
 }
-.dashboard{
-@include jcsb;
-height:50px;
-border:1px solid black;
 
-
-}
-.boxes{
-@include jcsa;
-border:1px solid pink;
-height:100px;
-
-
-}
-.header-box{
-  display:flex;
-  align-items: center;
-  border:1px solid black;
-  height:100px;
-  width:200px;
-
-}
-.content-top{
-  @include jcsa;
-
- border: 1px solid green;
-
-}
 
 .left-right{
   @include jcsa;
 }
 
-.article-box{
-  display:flex;
-  align-items: center;
-  width: 200px;
-  height:100px;
-  border: 1px solid green;
 
-}
 .article-six-box{
 
   justify-content: space-between;

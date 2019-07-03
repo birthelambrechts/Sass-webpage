@@ -1,0 +1,197 @@
+@mixin boxes-style{
+  border-radius: 4px;
+  display: flex;
+  background-color:white;
+  height: 100px;
+  width: 220px;
+  margin: 20px 20px 20px 20px;
+  box-shadow: 0px 0px 20px -6px rgba(110, 110, 110, 0.75);
+}
+@mixin icon-dash{
+  margin: 0 15px 0 10px;
+  color:$icon;
+}
+
+
+.right{
+  background-color: rgb(240, 240, 240);
+
+}
+.dashboard {
+  @include jcsb;
+  height: 50px;
+  margin-left: 20px;
+  color: #595b68;
+
+
+  h1 {
+    font-size: 25px;
+  }
+
+  button {
+    font-size: 14px;
+    background-color: $primary;
+    color: white;
+    border-radius: 4px;
+    border-style: none;
+    padding: 5px;
+    margin-right: 20px;
+    .fa-download{
+      color: rgb(211, 209, 209);
+      margin-left:0 5px 0 5px;
+      
+    }
+  }
+}
+
+
+.boxes {
+  @include jcsa;
+  height: 100px;
+  margin: 20px 0 40px 0 ;
+
+  .header-box-one {
+    border-left: solid 4px;
+    border-color: $primary;
+    @include boxes-style;
+    flex-direction: column;
+  justify-content: center;
+  @include jcsb;
+  .header-content{
+    color: $primary;
+  }
+
+  
+  }
+  .header-content{
+  font-size: 14px;
+  margin-left: 7px;
+
+  }
+  .header-number{
+    font-size: 20px;
+    margin-left: 7px;
+    margin-top: 4px;
+    color: #595b68;
+  }
+    .fa-calendar{
+     @include icon-dash
+    }
+   
+  .header-box-two {
+    border-left: solid 4px;
+    border-color: $succes;
+    @include boxes-style;
+    flex-direction: column;
+    justify-content: center;
+    @include jcsb;
+
+    .header-content{
+      color: $succes;
+    }
+
+    
+    .fa-dollar-sign{
+     @include icon-dash
+    }
+  }
+
+  .header-box-three {
+    border-left: solid 4px;
+    border-color: $info;
+    @include boxes-style;
+    flex-direction: column;
+    justify-content: center;
+    @include jcsb;
+    .header-content{
+      color: $info;
+    }
+
+  
+    .fa-clipboard-list{
+     @include icon-dash;
+    
+    }
+  }
+  .header-box-four {
+    border-left: solid 4px;
+    border-color: $warning;
+    @include boxes-style;
+    flex-direction: column;
+    justify-content: center;
+    @include jcsb;
+    .header-content{
+      color: $warning;
+    }
+
+    
+    .fa-comments{
+     @include icon-dash;
+    }
+  }
+}
+
+.half-bar{
+  margin:10px;
+  width: 80px;
+  height: 7px;
+  background-color: lightgray;
+  border-radius: 5px;
+  
+}
+.half-bar-fill{
+  margin:10px;
+  width: 40px;
+  height: 7px;
+  background-color:$info;
+  border-radius: 5px 0 0 5px;
+  z-index: 1;
+  margin: 0 35px 0 0;
+ 
+}
+
+.content-top{
+  @include jcsa;
+}
+.article-one{
+  display:flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 20px -6px rgba(0,0,0,0.75);
+}
+.article-two{
+  box-shadow: 0px 0px 20px -6px rgba(0,0,0,0.75);
+}
+.article-title{
+background-color: #f8f9fc;
+border-radius: 7px 7px 0 0;
+@include jcsb;
+H1{
+  padding:10px;
+  color: $primary;
+  font-weight: bold;
+}
+.fa-ellipsis-v{
+  justify-content: right;
+  margin:4px;
+  color: $icon;
+}
+}
+
+.article-two-title{
+  background-color: #f8f9fc;
+  border-radius: 7px 7px 0 0;
+  @include jcsb;
+ 
+  H1{
+    padding:10px;
+    color: $primary;
+    font-weight: bold;
+  }
+  .fa-ellipsis-v{
+    justify-content: right;
+    margin:4px;
+    color: $icon;
+  }
+  }
+
+

@@ -1,26 +1,15 @@
-@mixin boxes-style{
-  border-radius: 4px;
-  display: flex;
-  background-color:white;
-  height: 100px;
-  width: 220px;
-  margin: 20px 20px 20px 20px;
-  box-shadow: 0px 0px 20px -6px rgba(110, 110, 110, 0.75);
-}
-@mixin icon-dash{
-  margin: 0 15px 0 10px;
-  color:$icon;
-}
 
 .dashboard {
   @include jcsb;
   height: 50px;
   margin-left: 20px;
+  margin-top:20px;
   color: #595b68;
 
 
+
   h1 {
-    font-size: 25px;
+    font-size: 28px;
   }
 
   button {
@@ -65,9 +54,10 @@
   }
   .header-number{
     font-size: 20px;
-    margin-left: 7px;
+    margin-left: 8px;
     margin-top: 4px;
     color: #595b68;
+    font-weight: 700;
   }
     .fa-calendar{
      @include icon-dash

@@ -3,6 +3,7 @@
     background-color: #ffffff;
     display: flex;
     align-items: center;
+    box-shadow: 0px 0px 20px -6px rgba(110, 110, 110, 0.75);
 }
 
 .nav-l-sb {
@@ -83,6 +84,10 @@ input[type=search] {
     border-radius: 50%;
     height: 15px;
     padding-right: 2px;
+}
+
+.nav-r-name{
+    width: 80px;
 }
 
 .nav-r-i>* {

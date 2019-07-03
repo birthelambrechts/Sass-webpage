@@ -3,32 +3,31 @@
 @import "mixins";
 @import "colors";
 @import "component";
-@import "component-B";
-@import "componentA";
+
+body{
+  font-family: "nunito"
+    
+}
 
 .wrapper{
   display: flex;
+  background-color: #f8f9fc;
 }
 .left{
-  width:15%;
-  height: 100vh;
-  border:1px solid black;
+  width:18%;
+  height: 1400px;
+  background-color: $primary;
 }
 .right{
-  width: 85%;
+  width: 82%;
   height: 100vh;
-  border:1px solid black;
-}
-
-.wrapper> div {
-  border:1px solid black;
+  
 }
 
 
 .left-right{
   @include jcsa;
 }
-
 
 .article-six-box{
 

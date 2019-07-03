@@ -17,32 +17,190 @@
   <div class="wrapper">
 <!-- ******************WRAPPER  *************************  -->
   <!--  ***********   SIDE LEFT  ***********************  -->
-   <div class="left">
-     <div class="sidebar">left</div>
-   </div>
-  <!-- ***************END SIDE LEFT BEGIN RIGHT SIDE  ***********  -->
-
-   <!--  **********  NAV  *******************************   -->
-
-  <div class="right">
-      <div class="nav">
+  <div class="left">
+      <div class="sidebar">
+ <!--  ******************************  test bar   *****************  -->
+ 
+ <ul class="ul-sidebar">
+ 
+       <!-- Sidebar - Brand -->
+       <a class="sidebar-link-top" href="index.html">
+         <div class="icon-smile">
+           <i class="fas fa-laugh-wink fa-2x"></i>
+         </div>
+         <div class="sidebar-brand-text mx-3">SB Admin <sup>²</sup></div>
+       </a>
+ 
+       <!-- Divider -->
+       <hr class="sidebar-line">
+ 
+       <!-- Nav Item - Dashboard -->
+       <li class="side-list-item">
+         <a class="sidebar-link" href="index.html">
+           <i class="fas fa-fw fa-tachometer-alt"></i>
+           <span>Dashboard</span></a>
+       </li>
+ 
+       <!-- Divider -->
+       <hr class="sidebar-line">
+ 
+       <!-- Heading -->
+       <div class="sidebar-heading">
+         Interface
+       </div>
+ 
+       <!-- Nav Item - Pages Collapse Menu -->
+       <li class="side-list-item">
+         <a class="sidebar-link" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+           <i class="fas fa-fw fa-cog"></i>
+           <span>Components</span>
+           <i class="fas fa-angle-right last-i"></i>
+         </a>
+ 
+   <!--  *******************  HIDDEN COLLAPSE 1 *****************************  -->
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+           <div class=" collapse-box">
+             <h6 class="collapse-header">Custom Components:</h6>
+             <a class="sidebar-link" href="buttons.html">Buttons</a>
+             <a class="sidebar-link" href="cards.html">Cards</a>
+           </div>
+         </div>
+ 
+   <!--  *******************  END HIDDEN COLLAPSE  2 *****************************  -->
+       </li>
+ 
+       <!-- Nav Item - Utilities Collapse Menu -->
+       <li class="side-list-item">
+         <a class="sidebar-link" href="#" data-toggle="collapse" data-target="#collapseUtilities" aria-expanded="true" aria-controls="collapseUtilities">
+           <i class="fas fa-fw fa-wrench"></i>
+           <span>Utilities</span>
+           <i class="fas fa-angle-right last-i"></i>
+         </a>
+ 
+     <!--  *******************  HIDDEN COLLAPSE 3  *****************************  -->
+ 
+       <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
+           <div class="collapse-box">
+             <h6 class="collapse-header">Custom Utilities:</h6>
+             <a class="sidebar-link" href="utilities-color.html">Colors</a>
+             <a class="sidebar-link" href="utilities-border.html">Borders</a>
+             <a class="sidebar-link" href="utilities-animation.html">Animations</a>
+             <a class="sidebar-link" href="utilities-other.html">Other</a>
+           </div>
+         </div>
+     <!--  *******************  END HIDDEN COLLAPSE  3*****************************  -->
+ 
+       </li>
+ 
+       <!-- Divider -->
+       <hr class="sidebar-line">
+ 
+       <!-- Heading -->
+       <div class="sidebar-heading">
+         Addons
+       </div>
+ 
+       <!-- Nav Item - Pages Collapse Menu -->
+       <li class="nav-item">
+         <a class="sidebar-link" href="#">
+           <i class="fas fa-fw fa-folder"></i>
+           <span>Pages</span>
+           <i class="fas fa-angle-right last-i"></i>
+         </a>
+    <!--  *******************  HIDDEN COLLAPSE 4*****************************  -->
+ 
+         <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+           <div class="collapse-box">
+             <h6 class="collapse-header">Login Screens:</h6>
+             <a class="sidebar-link" href="login.html">Login</a>
+             <a class="sidebar-link" href="register.html">Register</a>
+             <a class="sidebar-link" href="forgot-password.html">Forgot Password</a>
+             <div class="collapse-divider"></div>
+             <h6 class="collapse-header">Other Pages:</h6>
+             <a class="sidebar-link" href="404.html">404 Page</a>
+             <a class="sidebar-link" href="blank.html">Blank Page</a>
+           </div>
+         </div>
+   <!--  *******************  END HIDDEN COLLAPSE 4  *****************************  -->
+ 
+       </li>
+ 
+       <!-- Nav Item - Charts -->
+       <li class="nav-item">
+         <a class="sidebar-link" href="charts.html">
+           <i class="fas fa-fw fa-chart-area"></i>
+           <span>Charts</span></a>
+ 
+       </li>
+ 
+       <!-- Nav Item - Tables -->
+       <li class="nav-item">
+         <a class="sidebar-link" href="tables.html">
+           <i class="fas fa-fw fa-table"></i>
+           <span>Tables</span></a>
+       </li>
+ 
+       <!-- Divider -->
+       <hr class="sidebar-line">
+ 
+       <!-- Sidebar Toggler (Sidebar) -->
+       <div class="sidebar-button-bottom">
+         <button><i class="fas fa-angle-left button-i"></i></button>
+       </div>
+ 
+     </ul>
+ 
+ 
+ <!--  ****************************  end testbar  ********************  -->
+ 
+ 
+ 
+ 
+ 
+ 
+      </div>
+    </div>
+   <!-- ***************END SIDE LEFT BEGIN RIGHT SIDE  ***********  -->
+ 
+    <!--  **********  NAV  *******************************   -->
+ 
+    <div class="right">
+        <div class="nav">
           <div class="nav-l">
-          <div class="nav-l-sb">
-              <div class="nav-l-form"></div>
-              <div class="nav-l-search-i"></div>
+            <div class="nav-l-sb">
+              <div class="nav-l-form">
+                <input type="search">
+              </div>
+              <a href="#" class="search">
+                <div class="nav-l-search-i">
+                  <i class="fas fa-search"></i>
+              </a>
+            </div>
           </div>
-      </div>
-      <div class="nav-r">
+        </div>
+        <div class="nav-r">
           <div class="nav-r-i">
-                  <i class="fas fa-bell"></i>
-                  <i class="fas fa-envelope"></i>
+            <div class="nav-r-i-bell">
+              <a href="#" class="notification">
+                <i class="fas fa-bell fa-lg"></i>
+              </a>
+            </div>
+            <div class="badge1">7</div>
+            <div class="nav-r-i-env">
+              <a href="#" class="notification">
+                <i class="fas fa-envelope fa-lg"></i>
+              </a>
+            </div>
+            <div class="badge2">4+</div>
           </div>
-          <div class="nav-r-center"></div>
+          <div class="nav-r-center"> | </div>
           <div class="nav-r-user">
-              <div class="nav-r-name"></div>
-              <div class="nav-r-pic"></div>
+            <div class="nav-r-name"> Mary Ham </div>
+            <div class="nav-r-pic">
+              <img src="images/maryham.png" width=60 alt="rip">
+            </div>
           </div>
-      </div>
+        </div>
       </div>
 
    <!--   *****************  HAEDER  ********************   -->
@@ -104,33 +262,121 @@
           </div>
         </div>
       </div>
-    <div class="left-right">
-    <div class="content-left">
-        <div class="article">art</div>
-        <div class="article-six-box">
-           <div class="box-top">
-              <div class="article-box primary"></div>
-              <div class="article-box succes"></div>
-           </div>
-           <div class="box-middle">
-              <div class="article-box info"></div>
-              <div class="article-box warning"></div>
-           </div>
-           <div class="box-bottom">
-
-              <div class="article-box danger"></div>
-              <div class="article-box secondary"></div>
-          </div>
+    <!-- Angel-->
+    <div class="maincontent">
+        <div class="left-right">
+        <div class="content-left">
+    
+            <div class="article-a">
+              <div class="bar">
+                <h3>Projects</h3>
+              </div>
+              <div class="contentt">
+    
+                <div class="values-one">
+                  <div class="value-one"><p>Server Migration</p></div>
+                  <div class="value-two"><p>20%</p></div>
+                </div>
+                            <div class="bars-one">
+                              <div class="bar-one"></div>
+                              <div class="bar-two"></div>
+                            </div>
+                <div class="values-two">
+                  <div class="value-three"><p>Sales Tracking</p></div>
+                  <div class="value-four"><p>40%</p></div>
+                </div>
+                            <div class="bars-two">
+                              <div class="bar-three"></div>
+                              <div class="bar-four"></div>
+                            </div>
+                <div class="values-three">
+                    <div class="value-five"><p>Customer Database</p></div>
+                    <div class="value-six"><p>60%</p></div>
+                </div>
+                            <div class="bars-three">
+                                <div class="bar-five"></div>
+                                <div class="bar-six"></div>
+                              </div>
+    
+                <div class="values-four">
+                    <div class="value-seven"><p>Payout Details</p></div>
+                    <div class="value-eight">80%</div>
+                </div>
+                            <div class="bars-four">
+                                <div class="bar-seven"></div>
+                                <div class="bar-eight"></div>
+                              </div>
+    
+                <div class="values-five">
+                    <div class="value-nine"><p>Account Setup</p></div>
+                    <div class="value-ten">Complete!</div>
+                </div>
+                            <div class="bars-five">
+                                <div class="bar-nine"></div>
+                                
+                              </div>
+              </div>
+            </div>
+            
+            <div class="article-six-box">
+               <div class="box-top">
+                  <div class="article-box primary">
+                    <p>Primary <br> <span>#4e73df</span> </p>
+                  </div>
+                  <div class="article-box succes">
+                    <p>Success <br> <span>#1cc88a</span> </p>
+                  </div>
+               </div>
+               <div class="box-middle">
+                  <div class="article-box info">
+                    <p>Info <br> <span>#36b9cc</span> </p>
+                  </div>
+                  <div class="article-box warning">
+                    <p>Warning <br> 
+                      <span>#f6c23e</span> </p>
+                  </div>
+               </div>
+               <div class="box-bottom">
+                  <div class="article-box danger">
+                    <p>Danger <br> <span>#e74a3b</span> </p>
+                  </div>
+                  <div class="article-box secondary">
+                    <p>Secondary <br> <span>#858796</span> </p>
+                  </div>
+              </div>
+            </div>
         </div>
-    </div>
-
-    <div class="content-right">
-        <div class="article">artr</div>
-        <div class="article">artr</div>
-    </div>
-    </div>
-  </div>
-
+    
+        <div class="content-right">
+            <div class="article-right-one">
+              <div class="bar"><h3>Illustrations</h3></div>
+              <div class="cntnt"> 
+                 <img src="images/illustrations.png" alt="ilu">
+                 <p>Add some quality, svg illustrations to your project courtesy of 
+                <a href="https://undraw.co/">unDraw</a>, a constantly updated collection of beautiful svg images 
+                  that you can use completely free and without attribution! </p><br>
+                  
+                  <a href="https://undraw.co/">Browse Illustrations on unDraw →</a>
+                  
+              </div>
+            </div>
+            <div class="article-right-two">
+              <div class="bar"><h3>Development Approach</h3></div>
+              <div class="cntnt-two">
+                <p>SB Admin 2 makes extensive use of Bootstrap 4 utility classes 
+                  in order to reduce CSS bloat and poor page performance. 
+                  Custom CSS classes are used to create custom components and custom
+                   utility classes.</p>
+    
+                   <p>Before working with this theme, you should become familiar with
+                      the Bootstrap framework, especially the utility classes.</p>
+              </div>
+            </div>
+        </div>
+        </div>
+        </div>
+    
+      </div>
 <!--   ****************  END CONTENT   *************   -->
 
 
@@ -138,7 +384,7 @@
 
 <!--  *******************  END SIDEBAR   BEGIN FOOTER  ****************  -->
 
-       <div class="footer">footer</div>
+       <div class="footer">Shame on you, Selene!</div>
 
   <!--  ********    END FOOTER   ***********************  -->
     </div>

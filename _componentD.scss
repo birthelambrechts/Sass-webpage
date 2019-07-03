@@ -1,7 +1,6 @@
 .sidebar{
    height:auto;
 
-
 }
 
 .ul-sidebar{
@@ -82,6 +81,7 @@
       font-size: .85rem;
       border-radius: 15px;
       display:none;
+      visibility: hidden;
       &::after{
         display:block;
       }

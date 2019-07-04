@@ -20,6 +20,7 @@
     color: #fff;
     padding: 15px 5px;
     text-decoration: none;
+    margin: 0 0 0 15px;
     i{
       color: rgba(#fff,.4);
     }
@@ -73,18 +74,38 @@
      height:23px;
    }
 }
-.collapse-box{
-      margin: 15px;
-      background-color: #fff;
-      padding: .5rem 0;
-      min-width: 10rem;
-      font-size: .85rem;
-      border-radius: 15px;
-      display:none;
-      visibility: hidden;
-      &::after{
-        display:block;
-      }
+
+
+//*****************************  test dropdown in css ***********
+.dropbtn {
+  background-color: $primary;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+
+
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  left: 150px;
+  background-color: #f9f9f9;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  background-color: #fff;
+  padding: 15px 0 15px 10px;;
+  font-size: 13px;
+  border-radius: 15px;
+  z-index: 2;
   .collapse-header{
       color: #b7b9cc;
 
@@ -97,4 +118,26 @@
       text-decoration: none;
       border-radius: .35rem;
   }
+
+}
+
+.dropdown-content a {
+  padding: 10px;
+  margin:  0 auto;
+  display: block;
+  color: #3a3b45;
+  text-decoration: none;
+  border-radius: 15px;
+
+
+}
+
+.dropdown-content a:hover {background-color: lighten($primary,35%)}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: $primary;
 }

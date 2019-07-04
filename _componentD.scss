@@ -1,4 +1,69 @@
-.dropbtn {
+.sidebar{
+  height:auto;
+  i{
+  color: rgba(#fff,.4);
+  }
+  span{
+  color: rgba(255, 255, 255, 0.8);
+  }
+  }
+  
+  .sidebar-link{
+  color: #fff;
+  padding: 15px 5px;
+  text-decoration: none;
+  margin: 0 0 0 15px;
+  
+  }
+  .site-list-item{
+  display:flex;
+  
+  }
+  
+  .sidebar-link-top{
+  @include flexCenter(row);
+  color: #fff;
+  padding: 20px 5px;
+  font-size: 1rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  text-decoration: none;
+  .sidebar-brand-text{
+  padding: 0 10px;
+  }
+  }
+  .sidebar-line{
+  margin:10px auto;
+  width:80%;
+  border-color: rgba(#fff,.4);
+  }
+  .sidebar-heading{
+  @include ptl;
+  color: rgba(#fff,.4);
+  }
+  .sidebar-button-bottom{
+  @include flexCenter(row);
+  background-color: $primary;
+  border-radius: 50%;
+  width:40px;
+  height:40px;
+  margin: 5px auto;
+  button{
+  background-color:$primary;
+  border:none;
+  color: rgba(#fff,.4);
+  border-radius: 50%;
+  }
+  .button-i{
+  background-color:$primary;
+  width:22px;
+  height:23px;
+  }
+  }
+  
+  //***************************** test dropdown in css ***********
+  .dropbtn {
   width:50%;
   background-color: $primary;
   color: white;
@@ -63,3 +128,5 @@
   .dropdown:hover .dropbtn {
   background-color: $primary;
   }
+  
+  

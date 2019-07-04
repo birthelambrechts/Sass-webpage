@@ -1,5 +1,5 @@
 
-.dashboard {
+.dashboard { //top-title//
   @include jcsb;
   height: 50px;
 
@@ -28,7 +28,7 @@
 }
 
 
-.boxes {
+.boxes { //4 kaders income//
   @include jcsa;
   height: 100px;
   margin: 20px 0 40px 0 ;
@@ -46,12 +46,12 @@ width: 1020px;
 
   
   }
-  .header-content{
+  .header-content{ //inhoud boxes//
   font-size: 14px;
   margin-left: 7px;
 
   }
-  .header-number{
+  .header-number{//nummers in boxes//
     font-size: 20px;
     margin-left: 8px;
     margin-top: 4px;
@@ -115,7 +115,7 @@ width: 1020px;
   }
 }
 
-.half-bar{
+.half-bar{ //procentbar//
   margin:10px;
   width: 80px;
   height: 7px;
@@ -123,7 +123,7 @@ width: 1020px;
   border-radius: 5px;
   
 }
-.half-bar-fill{
+.half-bar-fill{//procentbar vulling//
   margin:10px;
   width: 40px;
   height: 7px;
@@ -134,7 +134,7 @@ width: 1020px;
  
 }
 
-.margin-content {
+.margin-content { //omvattende kader//
   margin-left :20px;
 }
 .content-top{

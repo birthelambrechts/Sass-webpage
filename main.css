@@ -1026,7 +1026,7 @@ input[type=search] {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  width: 100%;
+  width: 1050px;
 }
 
 .nav-r-i {
@@ -1306,8 +1306,8 @@ a:hover {
     display: none;
   }
   .left {
-    width: 80px;
-    height: 2700px;
+    width: 180px;
+    height: 3000px;
     background-color: #4e73df;
     font-size: 12px;
     margin: 0;
@@ -1378,13 +1378,6 @@ a:hover {
     margin: 0px;
   }
   .margin-content {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
     width: 200px;
     margin-left: -3px;
   }
@@ -1437,6 +1430,14 @@ a:hover {
   .content-right {
     width: 200px;
     height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-left: -150px;
   }
   .cntnt {
     height: 100%;
@@ -1445,9 +1446,9 @@ a:hover {
     display: none;
   }
   .content-left {
-    width: 200px;
     height: 100%;
-    margin: 30px 0 0 10px;
+    width: 200px;
+    margin: 10px 0px 0 -170px;
   }
   .left-right {
     display: -webkit-box;
@@ -1457,14 +1458,13 @@ a:hover {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    width: 200px;
     height: 100%;
+    width: 300px;
   }
   .article-right-two {
     height: 100%;
   }
   .maincontent {
-    width: 200px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1509,15 +1509,13 @@ body {
 }
 
 .left-right {
+  margin-left: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;

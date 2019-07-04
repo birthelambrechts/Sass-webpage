@@ -25,9 +25,11 @@ body{
 
 }
 
-
 .left-right{
-  @include jcsa;
+  margin-left: 50px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .article-six-box{
